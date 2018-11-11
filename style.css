@@ -1,0 +1,31 @@
+/*
+body {
+	background-color:#333;
+	color:white;
+}
+*/
+
+body {
+	
+	background-color: white;
+	color: blue;
+	margin: 20px;
+}
+
+/* Styling the span, with red */
+
+
+span {
+	color: red;
+	font-family: 'Courier New', 'Arial', 'Helvetica';
+}
+
+.name-lable {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif" ;
+	color: purple;
+}
+
+#google-form {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: orange ;
+}

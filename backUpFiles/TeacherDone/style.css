@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Default styles */
+
+*, *::after, *::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* End default styles */
+
+/* Header styling */
+
+#header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 5vh;
+	background-color: lightgray;
+}
+
+#header-right-menu {
+	display: flex;
+	justify-content: space-between;
+}
+
+#header-right-menu li {
+	list-style: none;
+	margin-right: 1rem;
+}
+
+/* End Header styling */
+
+/* Main content styling */
+
+#main-content {
+	flex-direction: column;
+	display: flex;
+	height: 90vh;
+	justify-content: center;
+	align-items: center;
+}
+
+#main-content img {
+	width: 50%;
+	height: 38%;
+}
+
+#main-content-search-form {
+	width: 45%;
+}
+
+#main-content-search-form [type="text"] {
+	width: 100%;
+	border-style: none;
+}
+
+#main-content-search-form [type="text"]:focus {
+	border-style: none;
+	outline: none;
+}
+
+#main-content-search-form-buttons {
+	display:flex;
+	justify-content: space-between;
+}
+
+#main-content-search-form-buttons input {
+	width: 45%;
+}
+
+#main-content-search-form-search-bar {
+	display:flex;
+	border: 1px solid lightgrey;
+}
+
+#main-content-search-form-search-bar img {
+	height: 2rem;
+	width: 2rem;
+}
+
+/* End Main content */
+
+/* Start Footer */
+
+#footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+#footer ul {
+	display: flex;
+}
+
+#footer ul li {
+	list-style: none;
+}
+
+#footer-left-menu li {
+	margin-left: 1rem;
+}
+
+#footer-right-menu li {
+	margin-right: 1rem;
+}

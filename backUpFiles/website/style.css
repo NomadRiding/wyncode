@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.main-container {
+	width: 100%;
+	height: 100%;
+}
+a{
+	text-decoration: none;
+	color: grey;
+	padding: 0 10px;
+}
+img {
+	padding: 0 8px;
+}
+p {
+	font-size: 6rem;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5px;
+}
+.about-store{
+	justify-content: space-between;
+}
+
+.nav-right {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.pic {
+	height: 20px;
+}
+.gif {
+	height: 20px;
+	border-radius: 50%
+}
+.center-logo{
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	margin-top: 200px;
+}
+.g {
+	color: blue;
+}
+
+.o {
+	color: red;
+}
+.o2 {
+	color:yellow;
+}
+.g2 {
+	color: blue;
+}
+.l {
+	color: green;
+}
+.e {
+	color: orangered;
+}
+
+.search {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.search input {
+	display: flex;
+	width: 25%;
+	height: 18px;
+	background-image: url("pictures/mic2.png");
+	background-position: right;
+	background-repeat: no-repeat;
+}
+.buttons {
+	display: flex;
+	justify-content: center;
+	margin: 5px;
+}
+button {
+	padding: 5px;
+	margin: 5px;
+	background-color: lightgray;
+	
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	background-color: lightgray;
+	bottom: 0;
+	width: 100%;
+	height: 3%;
+	align-items: center;
+}
+.foot-left {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	padding: 10px;
+}
+.foot-right {
+	display: flex;
+	justify-content: space-between;
+}
+
+/*
+.logo {
+	justify-content: center;
+}
+.center-image {
+	display: flex;
+	justify-content: center;
+}
+*/

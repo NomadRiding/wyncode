@@ -1,0 +1,37 @@
+let readlineSync = require('readline-sync');
+
+let alpha = /a-z/
+
+function beginGame(){
+  console.log("You wake up...");
+  console.log("There's a crowd looking at you, there's a man next to you speaking...");
+  console.log("You notice the noose around your neck as he says.");
+  console.log("WELCOME TO HANGMAN! Guess the word to save your life...");
+
+  let choices = ['cat 1', 'cat 2', 'cat 3'];
+  let chances = 10;
+  let continuePlaying = true;
+  let userSelection;
+  let userChoice;
+
+  while( continuePlaying === true){
+    userSelection = categoryChoice(choices){
+      return userSelection;
+    }
+  }
+
+  function categoryChoice(value){
+    userSelection = readLineSync.question('Your choice is? : ');
+    userSelection = userSelection.toLowerCase();
+
+    while(!value.inclues(userSelection)){
+      console.log(`${userSelection} is not a valid answer...`)
+      userSelection = readlineSync.question('Your choice is? : ')
+    }
+    console.log(userSelection);
+    return userSelection;
+  }
+
+  beginGame()
+
+  

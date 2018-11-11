@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-content {
+  font: 16px solid times
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 35vh;
+}
+#header {
+  display: flex;
+  justify-content: center;
+  border: 1px solid blue;
+}
+
+ #dated {
+   display: flex;
+   justify-content: center;
+  border: 1px solid cyan;
+}
+
+
+#location {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid green;
+}
+
+#location input {
+  margin-top: 16px;
+  margin-left: 5px;
+}
+
+#statement {
+  display: flex;
+  justify-content: center;
+  border: 1px solid orange;
+}
+
+ #temperature {
+   display: flex;
+   justify-content: center;
+  border: 1px solid brown;
+
+}
